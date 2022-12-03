@@ -16,8 +16,8 @@ export default function Layout({ title, children }) {
               <a className="text-lg font-bold">amazona</a>
             </Link>
             <div>
-              <Link href="/cart">
-                <a className="p-2">Cart</a>
+              <Link className="p-2">
+                <a id="/cart">Cart</a>
               </Link>
 
               <Link href="/login">
